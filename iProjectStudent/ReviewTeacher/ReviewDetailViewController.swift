@@ -68,6 +68,7 @@ class CommentTeacherViewController: UIViewController {
             self.commentBox.isEditable = true
         }else{
             self.commentBox.isEditable = false
+            self.commentBox.isSelectable = false
         }
         
     }
